@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/practices/swingGui/Event_Handling/Event_Handling.iml" filepath="$PROJECT_DIR$/practices/swingGui/Event_Handling/Event_Handling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practices/swingGui/JFrame_JLabel/JFrame_JLabel.iml" filepath="$PROJECT_DIR$/practices/swingGui/JFrame_JLabel/JFrame_JLabel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practices/swingGui/JList/JList.iml" filepath="$PROJECT_DIR$/practices/swingGui/JList/JList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practices/swingGui/JTextField/JTextField.iml" filepath="$PROJECT_DIR$/practices/swingGui/JTextField/JTextField.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practices/concurrencyControl/concurrencyControl.iml" filepath="$PROJECT_DIR$/practices/concurrencyControl/concurrencyControl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practices/multicast/multicast.iml" filepath="$PROJECT_DIR$/practices/multicast/multicast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/staCs5001.iml" filepath="$PROJECT_DIR$/.idea/staCs5001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practices/tcp/tcp.iml" filepath="$PROJECT_DIR$/practices/tcp/tcp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practices/threadingClass/threadingClass.iml" filepath="$PROJECT_DIR$/practices/threadingClass/threadingClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practices/threadingInterface/threadingInterface.iml" filepath="$PROJECT_DIR$/practices/threadingInterface/threadingInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practices/udp/udp.iml" filepath="$PROJECT_DIR$/practices/udp/udp.iml" />
+    </modules>
+  </component>
+</project>
