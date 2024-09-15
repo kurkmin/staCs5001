@@ -11,19 +11,19 @@ public class Server {
             ss = new ServerSocket(port);
             System.out.println("Server started on port " + port);
             while (true) {
-                // waits until client requests a connection, then returns connection (socket)
+                // waits until client requests a connection, then returns the address to which the socket is connected
                 Socket conn = ss.accept();
-                System.out.println("Server got new connection request from " + conn.getInetAddress());
+                System.out.println("Server got a new connection request from " + conn.getInetAddress());
 
                 // reads a line from the socket connection and prints the line
                 InputStreamReader isr = new InputStreamReader(conn.getInputStream());
                 BufferedReader in = new BufferedReader(isr);
-                String req = in.readLine();
-                System.out.println("message from the client: " + req);
+                String msg = in.readLine();
+                System.out.println("message from the client: " + msg);
 
                 // send a responding line to the connected client
                 PrintWriter out = new PrintWriter(conn.getOutputStream(), true);
-                out.println("Echo: "  + req);
+                out.println("Echo: "  + msg);
 
                 // close the socket connection
                 conn.close();
